@@ -1,0 +1,16 @@
+Phương án được chọn: B + GaussianNB
+Kích thước: train=27126, validation=9042, test=9043
+              precision    recall  f1-score   support
+
+          no       0.93      0.89      0.91      7985
+         yes       0.38      0.48      0.43      1058
+
+    accuracy                           0.85      9043
+   macro avg       0.65      0.69      0.67      9043
+weighted avg       0.86      0.85      0.85      9043
+
+Confusion matrix (hàng: nhãn thật; cột: dự đoán):
+[[7145  840]
+ [ 545  513]]
+False Negative: 545 (yes bị dự đoán thành no)
+False Positive: 840 (no bị dự đoán thành yes)

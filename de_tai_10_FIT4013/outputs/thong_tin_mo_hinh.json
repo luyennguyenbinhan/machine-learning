@@ -1,0 +1,28 @@
+{
+  "flow": "B",
+  "algorithm": "Naive Bayes",
+  "params": {},
+  "random_state": 42,
+  "test_size": 0.2,
+  "selected_by": "validation F1 yes",
+  "excluded_column": "duration",
+  "input_features": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "balance",
+    "housing",
+    "loan",
+    "contact",
+    "day",
+    "month",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome",
+    "da_lien_he_truoc",
+    "nhom_tuoi"
+  ]
+}
